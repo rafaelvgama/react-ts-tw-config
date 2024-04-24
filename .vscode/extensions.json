@@ -7,6 +7,8 @@
 		"dbaeumer.vscode-eslint", // Eslint
 		"YoavBls.pretty-ts-errors", // Pretty TypeScript Errors
 		"SonarSource.sonarlint-vscode", // SonarLint
+		"bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+		"csstools.postcss" // PostCSS Language Support
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
