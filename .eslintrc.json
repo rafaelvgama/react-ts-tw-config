@@ -1,0 +1,47 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2020": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module",
+    "project": ["./tsconfig.json", "./tsconfig.node.json"]
+  },
+  "ignorePatterns": [
+    "dist",
+    "node_modules"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-hooks",
+    "react-refresh"
+  ],
+  "rules": {
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ],
+    "no-console": "error",
+    "react/self-closing-comp": "error",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  }
+}
