@@ -6,7 +6,6 @@ const App = () => {
           href='https://vitejs.dev'
           target='_blank'
           rel='noreferrer'
-          className='mr-2'
         >
           Vite
         </a>
