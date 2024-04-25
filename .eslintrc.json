@@ -22,12 +22,11 @@
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module",
-    "project": ["./tsconfig.json", "./tsconfig.node.json"]
+    "project": "./tsconfig.json"
   },
   "ignorePatterns": [
     "dist",
-    "node_modules",
-    "*.config.js"
+    "node_modules"
   ],
   "plugins": [
     "@typescript-eslint",
