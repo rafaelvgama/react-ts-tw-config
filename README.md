@@ -6,7 +6,7 @@
 - Tailwind CSS
 - Vitest
 - Eslint + Prettier
-- Husky + Lint Staged
+- Husky pre-push
 
 ---
 
@@ -18,4 +18,4 @@
 - Tailwind CSS
 - Vitest
 - Eslint + Prettier
-- Husky + Lint Staged
+- Husky pre-push

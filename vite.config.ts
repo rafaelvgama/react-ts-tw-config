@@ -6,6 +6,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
+  server: { port: 3000 },
   test: {
     globals: true,
     environment: 'jsdom',
@@ -13,10 +14,13 @@ export default defineConfig({
     coverage: {
       enabled: true,
       provider: 'v8',
-      reporter: ['text', 'json', 'html'],
+      reporter: ['text', 'html', 'lcov'],
       exclude: [
         'node_modules',
         '**/*.style.ts',
+        '**/*.test.ts',
+        '**/*.test.tsx',
+        '**/test/**',
         '**/*.config.js',
         '**/*.config.ts',
         '**/*.d.ts',
